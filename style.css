@@ -68,9 +68,9 @@
     color: white;
     }
     img{
-	width: 280px;
-	height:280px ;
-	margin: 20px;
+	width: 290px;
+	height:290px ;
+	
 	margin-left:100px ;
 	margin-right:50px ;
 	margin-top:50px ;
@@ -87,10 +87,6 @@
 		border-radius: 25px;
 		transition: width 0.8s, height 0.8s;
 	}
-	img:hover{
-		width: 320px ;
-		height:320px ;
-	}
 	a{
 		text-decoration: none;
 		text-decoration-line: none;
@@ -103,6 +99,63 @@
 		border-radius: 25px;
 		padding: 7px;		
 	}
+	@media (max-width: 500px) {
+  body {
+    background-image: linear-gradient(to bottom, rgb(255, 192, 203, 0.5), rgb(255, 192, 203, 1));
+  }
+
+  ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  li {
+    display: block;
+    padding: 10px 0;
+    text-align: center;
+  }
+
+  .hero-image {
+    height: 40%;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .hero-text h1 {
+    font-size: 22px;
+  }
+
+  .hero-text p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 90%;
+    height: auto;
+    margin: 10px auto;
+    display: block;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  table tr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  td {
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  a {
+    font-size: 14px;
+  }
+}
 
 
 	
